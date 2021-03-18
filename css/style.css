@@ -1,4 +1,82 @@
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
 
 .template {
   display: none;
+}
+
+body {
+ font-family: 'Roboto', sans-serif;
+}
+
+header {
+  text-align: center;
+  height: 100px;
+  background-color: #d9f582;
+  padding-top: 20px;
+}
+
+
+.container {
+  width: 60%;
+  height: 500px;
+  margin:  50px auto;
+  border-radius: 10px;
+}
+  
+
+
+
+.input-container {
+  padding-bottom: 30px;
+  border-bottom: 2px solid black;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+input {
+  border: none;
+  border: 2px solid grey;
+  width: 80%;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+input:focus {
+  outline: none !important;
+  border-color: #719ECE;
+}
+.todo-list-container {
+  margin-top: 20px;
+}
+
+.todo-list {
+  list-style: none;
+}
+
+.list-item {
+  background-color: #7086ff;
+  height: 50px;
+  padding: 15px 19px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  font
+}
+
+.list-item:nth-child(2n+2) {
+  background-color: #c5ceff;
+}
+  
+.list-item .delete-item {
+  
 }
